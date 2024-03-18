@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projete2024</title>
+    <link rel="stylesheet" href="assets/CSS/MyLib.css" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <link rel="stylesheet" href="assets/CSS/responsivo.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <button class="button" data-text="Awesome">
+            <span class="actual-text">&nbsp;Genesis&nbsp;</span>
+            <span aria-hidden="true" class="front-text"
+              >&nbsp;Genesis&nbsp;</span
+            >
+          </button>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Dashboard</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Chatbot</a></li>
+          </ul>
+        </div>
+
+        <div class="tema-button">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider">
+              <svg
+                class="slider-icon"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                role="presentation"
+              >
+                <path fill="none" d="m4 16.5 8 8 16-16"></path>
+              </svg>
+            </span>
+          </label>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img class="icon" src="assets/IMG/menu_white_36dp.svg" />
+          </button>
+        </div>
+      </nav>
+
+      <div class="mobile-menu">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Dashboard</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Chatbot</a></li>
+          <div class="tema-button">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider">
+                <svg
+                  class="slider-icon"
+                  viewBox="0 0 32 32"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="presentation"
+                >
+                  <path fill="none" d="m4 16.5 8 8 16-16"></path>
+                </svg>
+              </span>
+            </label>
+          </div>
+        </ul>
+      </div>
+    </header>
+
+    <div class="tela-one"></div>
+
+    <div class="tela-two tl"></div>
+
+    <footer></footer>
+
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/JS/script.js"></script>
+  </body>
+</html>

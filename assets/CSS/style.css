@@ -1,0 +1,72 @@
+.tela-one {
+  width: 85vw;
+  min-height: 100vh;
+  background-color: rgb(217, 216, 219);
+  display: flex;
+  margin: auto;
+}
+
+.tela-two {
+  width: 85vw;
+  min-height: 100vh;
+  background-color: rgb(66, 3, 125);
+  margin: auto;
+  margin-top: 5px;
+}
+
+/*.Btn-about1 {
+  width: 200px;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    #77530a,
+    #ffd277,
+    #77530a,
+    #77530a,
+    #ffd277,
+    #77530a
+  );
+  background-size: 250%;
+  background-position: left;
+  color: #ffd277;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 1s;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.Btn-about1::before {
+  position: absolute;
+  content: "SUBSCRIBE";
+  color: #ffd277;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  height: 90%;
+  border-radius: 8px;
+  transition-duration: 1s;
+  background-color: rgba(0, 0, 0, 0.842);
+  background-size: 200%;
+}
+
+.Btn-about1:hover {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn-about1:hover::before {
+  background-position: right;
+  transition-duration: 1s;
+}
+
+.Btn-about1:active {
+  transform: scale(0.95);
+}
+*/
